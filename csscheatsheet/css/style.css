@@ -1,0 +1,170 @@
+body{
+    background-color: deeppink;
+    color: aquamarine;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+
+    //same as above//
+
+    font: normal 12px Arial, Helvetica, sans-serif;
+
+    Line-height:1.6em;
+    margin:40px;
+    
+}
+
+.button{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: greenyellow;
+}
+
+a:visited{
+ 
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.clr{
+    clear: both;
+}
+
+.box-1{
+    background-color: dimgray;
+    color: darkturquoise;
+
+    border: 5px white solid;
+
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.box-1 h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    word-spacing: 1em;
+    letter-spacing: 1em;
+}
+
+.box-2 {
+    border: 5px dotted greenyellow;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.categories{
+    border: 1px orange solid;
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+   
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0%;
+    list-style: square;
+}
+
+.categories li{
+    border-bottom: dotted 1px;
+    padding-bottom: 6px;
+    list-style-image: url('../images/smiley.png');
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: green;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px black solid;
+    margin-top: 30px;
+    position: relative;
+    background-image: url('../images/bgimage.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.p-box h1{
+    position: absolute;
+    top: 40px;
+}
+
+.fix-me{
+    position: fixed;
+    top: 400px;
+}
+
+.my-list li:first-child{
+    background: red;
+} 
+
+.my-list li:last-child{
+    background: white;
+} 
